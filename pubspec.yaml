@@ -8,7 +8,10 @@ environment:
 
 dependencies:
   collection: ^1.15.0
-  flutter_data: ^1.6.0
+  flutter_data:
+    git:
+      url: https://github.com/flutterdata/flutter_data.git
+      ref: master # branch name
   json_api: ^7.0.0
 
 # dependency_overrides:
